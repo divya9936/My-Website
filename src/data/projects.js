@@ -4,7 +4,7 @@ export const projects = [
     description: "Interactive visualization of sorting algorithms (Bubble, Selection, Insertion, Merge) with adjustable speed and size.",
     tech: ["JavaScript", "HTML/CSS", "Algorithms"],
     github: "https://github.com/divya9936/Sorting-Visualizer",
-    live: "https://divya9936.github.io/Sorting-Visualizer/" 
+    live: "https://rad-daffodil-a56296.netlify.app/" 
   },
   {
     title: "HydrateMe",
