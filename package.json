@@ -2,7 +2,6 @@
   "name": "portfolio-website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://divya9936.github.io/my-website",
   "type": "module",
   "scripts": {
     "dev": "vite",
