@@ -10,8 +10,8 @@ export default function Contact() {
       </div>
       <div className="contact-links">
         <a href="mailto:divyadxt02@gmail.com" className="btn btn-primary">Say Hello</a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">LinkedIn</a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">GitHub</a>
+        <a href="https://www.linkedin.com/in/divya-dixit/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">LinkedIn</a>
+        <a href="https://github.com/divya9936" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">GitHub</a>
       </div>
     </div>
   );
