@@ -7,7 +7,6 @@ export default function Contact() {
       </p>
       <div className="contact-info" style={{marginBottom: '2rem', color: 'var(--text-secondary)'}}>
         <p>Email: <a href="mailto:divyadxt02@gmail.com" style={{color: 'var(--accent)'}}>divyadxt02@gmail.com</a></p>
-        <p>Phone: +91-9936248475</p>
       </div>
       <div className="contact-links">
         <a href="mailto:divyadxt02@gmail.com" className="btn btn-primary">Say Hello</a>
