@@ -1,4 +1,19 @@
 export const projects = [
+    {
+    title: "RAG Chatbot",
+    description:
+      "A Python Streamlit RAG app that turns uploaded PDF documents into a searchable knowledge base, letting users ask questions and get context-aware answers powered by Google Gemini and FAISS.",
+    tech: [
+      "Python",
+      "Streamlit",
+      "LangChain",
+      "FAISS",
+      "Google Gemini",
+      "PDFPlumber",
+    ],
+    github: "https://github.com/divya9936/rag-chatbot",
+    live: "https://rag-powered-pdf-chatbot.streamlit.app/",
+  },
   {
     title: "Frontend Manual",
     description:
@@ -47,19 +62,5 @@ export const projects = [
     github: "#",
     live: "#",
   },
-  {
-    title: "RAG Chatbot",
-    description:
-      "A Python Streamlit RAG app that turns uploaded PDF documents into a searchable knowledge base, letting users ask questions and get context-aware answers powered by Google Gemini and FAISS.",
-    tech: [
-      "Python",
-      "Streamlit",
-      "LangChain",
-      "FAISS",
-      "Google Gemini",
-      "PDFPlumber",
-    ],
-    github: "#",
-    live: "#",
-  },
+
 ];

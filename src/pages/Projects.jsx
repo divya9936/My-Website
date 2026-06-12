@@ -12,10 +12,9 @@ export default function Projects() {
 
     const slide = track.children[index];
     if (slide) {
-      slide.scrollIntoView({
+      track.scrollTo({
+        left: slide.offsetLeft,
         behavior: "smooth",
-        inline: "start",
-        block: "nearest",
       });
     }
   };
@@ -52,19 +51,10 @@ export default function Projects() {
 
     const frameId = window.requestAnimationFrame(handleScroll);
 
-    const interval = window.setInterval(() => {
-      setActiveIndex((currentIndex) => {
-        const nextIndex = (currentIndex + 1) % projects.length;
-        scrollToIndex(nextIndex);
-        return nextIndex;
-      });
-    }, 5000);
-
     return () => {
       track.removeEventListener("scroll", handleScroll);
       window.removeEventListener("resize", handleScroll);
       window.cancelAnimationFrame(frameId);
-      window.clearInterval(interval);
     };
   }, []);
 
