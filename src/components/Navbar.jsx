@@ -24,8 +24,6 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-content">
-        <strong className="nav-logo">Divya.dev<span style={{color: 'var(--accent-warm)'}}>.</span></strong>
-        
         <button className="mobile-menu-btn" onClick={toggleMenu} aria-label="Toggle menu">
           <span className={`hamburger ${isOpen ? 'open' : ''}`}></span>
         </button>

@@ -2,15 +2,15 @@ export default function Hero() {
   return (
     <div className="hero">
       <div className="hero-left">
-        <p className="hero-kicker">Full‑Stack Developer</p>
+        <p className="hero-kicker">Full Stack Developer</p>
         <h1>Divya Dixit</h1>
         <h2 className="hero-subtitle">
-          Building React SPAs, WordPress solutions, and high‑performance Python
-          APIs.
+          Building polished web products with React, WordPress, Python, and AI.
         </h2>
         <p className="hero-intro">
-          2+ years building responsive, production-ready web apps — WordPress
-          customizations, React SPAs, FastAPI backends, and AI/RAG chatbots.
+          2+ years delivering responsive, production-ready web apps across
+          WordPress customizations, React SPAs, FastAPI backends, and AI/RAG
+          solutions.
         </p>
         <div className="hero-cta">
           <a href="#projects" className="btn btn-primary">
@@ -25,7 +25,7 @@ export default function Hero() {
           <span>WordPress</span>
           <span>FastAPI</span>
           <span>Python</span>
-          <span>SCSS</span>
+          <span>SCSS Modules</span>
           <span>Azure</span>
         </div>
       </div>
@@ -51,7 +51,7 @@ export default function Hero() {
         <div className="floating-card analytics-card">
           <p className="card-label">Experience</p>
           <h3>2+ Years</h3>
-          <small>Full‑stack & WordPress</small>
+          <small>Full stack and WordPress</small>
         </div>
 
         <div className="floating-card ship-card">
@@ -63,7 +63,7 @@ export default function Hero() {
         <div className="floating-card design-card">
           <p className="card-label">AI</p>
           <h3>RAG Chatbots</h3>
-          <small>Retrieval‑Augmented Generation</small>
+          <small>Retrieval Augmented Generation</small>
         </div>
       </div>
     </div>
